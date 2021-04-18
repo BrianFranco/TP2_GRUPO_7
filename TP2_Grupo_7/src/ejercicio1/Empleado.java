@@ -55,7 +55,7 @@ public class Empleado {
 		return numeroEmpleado + 1;
 	}
 	
-	//Métodos HashCode e Equals
+	//Genero los Métodos HashCode e Equals - Net
 	
 	@Override
 	public int hashCode() {

@@ -1,5 +1,8 @@
 package ejercicio1;
 
+//Implemento la Interfaz Comparable para poder hacer la comparación de los Profesores
+//y desarrollar el treeset del "mainEjercicio1_b" - Net
+
 public class Profesor extends Empleado implements Comparable<Profesor> {
 	
 	//Attributes
@@ -39,7 +42,7 @@ public class Profesor extends Empleado implements Comparable<Profesor> {
 		
 	}
 	
-	//Métodos CompareTo, HashCode e Equals
+	//Genero lo Métodos CompareTo, HashCode e Equals - Net
 	
 	@Override
 	public int compareTo (Profesor o) {

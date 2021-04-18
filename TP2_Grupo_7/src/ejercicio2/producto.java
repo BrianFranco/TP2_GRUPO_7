@@ -32,7 +32,7 @@ public class producto {
 
 	@Override
 	public String toString() {
-		return "producto [fechaCaducidad=" + fechaCaducidad + ", numeroLote=" + numeroLote + "]";
+		return "Producto con Fecha de Caducidad: " + fechaCaducidad + ", Numero de Lote=" + numeroLote;
 	}
 	
 	

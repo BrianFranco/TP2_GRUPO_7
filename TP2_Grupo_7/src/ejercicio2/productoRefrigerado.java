@@ -23,8 +23,7 @@ public class productoRefrigerado extends producto {
 
 	@Override
 	public String toString() {
-		return super.toString()+"productoRefrigerado [codigoOrganismoSupervisionAlimentaria=" + codigoOrganismoSupervisionAlimentaria
-				+ "]";
+		return super.toString()+" Producto Refrigerado: Codigo Organismo Supervision Alimentaria: " + codigoOrganismoSupervisionAlimentaria;
 	}
 	
 	

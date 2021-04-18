@@ -5,8 +5,7 @@ import java.util.Iterator;
 
 import ejercicio3.Edificio.tipoEdificio;
 
-public class Principal {
-
+public class mainEjercicio3 {
 
 	public static void main(String[] args) {
 		ArrayList<Edificio> edificios = new ArrayList<Edificio>();
@@ -32,7 +31,6 @@ public class Principal {
 			System.out.println(o);
 			}
 	    }
-
 	}
 
 }

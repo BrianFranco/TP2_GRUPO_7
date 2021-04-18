@@ -34,7 +34,7 @@ public class productoFresco extends producto {
 
 	@Override
 	public String toString() {
-		return super.toString()+"productoFresco [fechaDeEnvasado=" + fechaDeEnvasado + ", paisDeOrigen=" + paisDeOrigen + "]";
+		return super.toString()+" Producto Fresco: Fecha De Envasado: " + fechaDeEnvasado + ", Pais De Origen:" + paisDeOrigen;
 	}
 	 
 	 
